@@ -2,7 +2,9 @@
   "name": "vue-crud-2021",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "backend": "json-server ---watch -p 5000 db.json"
